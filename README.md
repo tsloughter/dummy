@@ -1,9 +1,14 @@
 dummy
 =====
 
-An Erlang dummy library.
+Rebar3 plugin
 
 Build
 -----
 
-    $ rebar compile
+    $ rebar3 compile
+
+Use
+---
+
+    $ rebar3 dummy
