@@ -16,7 +16,7 @@
 -spec init(rebar_state:t()) -> {ok, rebar_state:t()}.
 init(State) ->
     State1 = rebar_state:add_provider(State, providers:create([{name, ?PROVIDER},
-                                                               {provider_impl, ?MODULE},
+                                                               {module, ?MODULE},
                                                                {bare, false},
                                                                {deps, ?DEPS},
                                                                {example, "rebar dummy"},
