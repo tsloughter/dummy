@@ -7,5 +7,5 @@
    [kernel
    ,stdlib
    ]}
- ,{env,[]}
+ ,{env,[{providers, [dummy]}]}
  ]}.
